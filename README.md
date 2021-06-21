@@ -1,20 +1,20 @@
 <p align="center">
- <a href="#eye_speech_bubble-preview">Preview</a> •
+ <a href="#rocket-letmeask">Letmeask</a> •
  <a href="#arrow_forward-run">Run</a> •
  <a href="#hammer_and_wrench-technologies">Technologies</a> •
 </p>
 
-# :fileFolder: Letmeask
+## :rocket: **Letmeask**
 
 App developed during Rocketseat's NLW together!
-
----
-## :eye_speech_bubble: **Preview**
+This project is divided into two parts: 
+- Admin
+- User
 
 <div align="center">
 
-## |Admin View|
-
+## Admin
+ 
   <div>
     <kbd><img width="465px" src="images/home.png" alt="Home"/></kbd>  
     <kbd><img width="465px" src="images/questions.png" alt="Questions"/></kbd> 
@@ -28,7 +28,7 @@ App developed during Rocketseat's NLW together!
     <kbd><img width="465px" src="images/question_answered.png" alt="Answered"/></kbd> 
   </div>
 
-  ## |User View|
+  ## User View
   <div>
     <kbd><img width="465px" src="images/home.png" alt="Home"/></kbd>  
     <kbd><img width="465px" src="images/ask.png" alt="Ask"/></kbd> 
