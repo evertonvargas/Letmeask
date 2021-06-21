@@ -3,7 +3,7 @@ import { Button } from "./components/Button"; //obriga a importar
 function App() {
   return (
     <div>
-      <Button text="Vida doida" />
+      <Button>Vida Loka</Button>
       <Button />
       <Button />
     </div>
