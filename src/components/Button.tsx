@@ -1,10 +1,13 @@
-type ButtonProps = {
-  children?: string; // ?: significa parametro opcional
-}
+export function Button() {
+  let counter = 0;
 
-//posso passar qnds propriedades eu quiser pra esse botão
-// basta add dentro do type
+  function increment() {
+    counter++;
+  }
 
-export function Button(props: ButtonProps) {
-  return <button>{props.children || "Clique aqui"}</button>;
+  return( 
+    <button onClick={increment}>
+        {counter}
+    </button>
+  );
 }
