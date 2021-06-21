@@ -1,57 +1,59 @@
-<p align="center">
+
+ <div align="center">
+
+ <img alt="Letmeask" src="images/logo.svg" width="160px">
+  <div>
  <a href="#rocket-letmeask">Letmeask</a> •
- <a href="#arrow_forward-run">Run</a> •
  <a href="#hammer_and_wrench-technologies">Technologies</a> •
-</p>
+ <a href="#camera-layout">Layout</a> •
+ <a href="#arrow_forward-run">Run</a>
+ </div>
+ </div>
+
 
 ## :rocket: **Letmeask**
 
 App developed during Rocketseat's NLW together!
-This project is divided into two parts: 
-- Admin
-- User
 
-<div align="center">
+<h1 align="center">
+    <img alt="Letmeask" title="Letmeask" src="images/cover.svg" />
+</h1>
 
-## Admin
- 
-  <div>
-    <kbd><img width="465px" src="images/home.png" alt="Home"/></kbd>  
-    <kbd><img width="465px" src="images/questions.png" alt="Questions"/></kbd> 
-  </div>
-    <div>
-    <kbd><img width="465px" src="images/questions_for_admin.png" alt="Question for admin"/></kbd>  
-    <kbd><img width="465px" src="images/delete.png" alt="Delete"/></kbd> 
-  </div>
-   <div>
-    <kbd><img width="465px" src="images/favorite.png" alt="Favorite"/></kbd>  
-    <kbd><img width="465px" src="images/question_answered.png" alt="Answered"/></kbd> 
-  </div>
+## :hammer_and_wrench: **Technologies**
 
-  ## User View
-  <div>
-    <kbd><img width="465px" src="images/home.png" alt="Home"/></kbd>  
-    <kbd><img width="465px" src="images/ask.png" alt="Ask"/></kbd> 
-  </div>
+The following tools is used to build this project:
 
-</div>
+- [React](https://reactjs.org)
+- [Firebase](https://firebase.google.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+---
+## :camera: **Layout**
+
+You can view the project layout through the links below:
+
+- [Layout Web](https://www.figma.com/file/u6m6veBOMWyWbuytfUeRkR/Letmeask?node-id=0%3A1) 
+
+Remembering that you need to have a [Figma](http://figma.com/) account to access it.
 
 ---
 ## :arrow_forward: **Run**
 
 To run the project you need to clone or download this repository, have the Node Package Manager (NPM) or the YARN Package Manager installed (YARN).
-### `yarn start`
 
----
-## :hammer_and_wrench: **Technologies**
+```bash
+$ git clone https://github.com/evertonvargas/Project.git
+$ cd letmeask
+```
 
-The following tools is used to build this project:
+Follow the steps below:
+```bash
+# Install the dependencies
+$ yarn
 
-<div align="center">
+# Start the project
+$ yarn start
+```
+The app will be available for access on your browser at http://localhost:3000
 
-|:globe_with_meridians: Web|:file_cabinet: Server|
-|:---:|:---:|
-|ReactJS|Firebase|
-|TypeScript|
 
-</div>
