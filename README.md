@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+<p align="center">
+ <a href="#eye_speech_bubble-preview">Preview</a> •
+ <a href="#arrow_forward-run">Run</a> •
+ <a href="#hammer_and_wrench-technologies">Technologies</a> •
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :fileFolder: Letmeask
 
-## Available Scripts
+App developed during Rocketseat's NLW together!
 
-In the project directory, you can run:
+---
+## :eye_speech_bubble: **Preview**
 
+<div align="center">
+
+## |Admin View|
+
+  <div>
+    <kbd><img width="465px" src="images/home.png" alt="Home"/></kbd>  
+    <kbd><img width="465px" src="images/questions.png" alt="Questions"/></kbd> 
+  </div>
+    <div>
+    <kbd><img width="465px" src="images/questions_for_admin.png" alt="Question for admin"/></kbd>  
+    <kbd><img width="465px" src="images/delete.png" alt="Delete"/></kbd> 
+  </div>
+   <div>
+    <kbd><img width="465px" src="images/favorite.png" alt="Favorite"/></kbd>  
+    <kbd><img width="465px" src="images/question_answered.png" alt="Answered"/></kbd> 
+  </div>
+
+  ## |User View|
+  <div>
+    <kbd><img width="465px" src="images/home.png" alt="Home"/></kbd>  
+    <kbd><img width="465px" src="images/ask.png" alt="Ask"/></kbd> 
+  </div>
+
+</div>
+
+---
+## :arrow_forward: **Run**
+
+To run the project you need to clone or download this repository, have the Node Package Manager (NPM) or the YARN Package Manager installed (YARN).
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+## :hammer_and_wrench: **Technologies**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The following tools is used to build this project:
 
-### `yarn test`
+<div align="center">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+|:globe_with_meridians: Web|:file_cabinet: Server|
+|:---:|:---:|
+|ReactJS|Firebase|
+|TypeScript|
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+</div>
