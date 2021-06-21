@@ -15,9 +15,9 @@
 
 App developed during Rocketseat's NLW together!
 
-<h1 align="center">
+<div align="center">
     <img alt="Letmeask" title="Letmeask" src="images/cover.svg" />
-</h1>
+</div>
 
 ## :hammer_and_wrench: **Technologies**
 
@@ -27,7 +27,7 @@ The following tools is used to build this project:
 - [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
----
+
 ## :camera: **Layout**
 
 You can view the project layout through the links below:
@@ -36,7 +36,7 @@ You can view the project layout through the links below:
 
 Remembering that you need to have a [Figma](http://figma.com/) account to access it.
 
----
+
 ## :arrow_forward: **Run**
 
 To run the project you need to clone or download this repository, have the Node Package Manager (NPM) or the YARN Package Manager installed (YARN).
