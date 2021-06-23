@@ -1,0 +1,31 @@
+@media (max-width: 930px) { 
+  #page-auth{
+
+    aside{
+      padding: 120px 30px;
+    }
+  }
+
+ }
+
+ @media (max-width: 730px) { 
+  #page-auth{
+    flex-direction: column;
+    align-items: center;
+
+    aside{
+      display: none;
+    }
+      
+    main{
+      width:100%;
+      
+    }
+
+    .main-content{
+      max-width: 90%;
+      padding-bottom: 40px;
+    }
+  }
+
+ }
