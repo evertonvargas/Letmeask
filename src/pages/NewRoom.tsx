@@ -4,11 +4,12 @@ import { Link, useHistory } from 'react-router-dom'
 import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg';
 
+import '../styles/auth.scss';
 import { Button } from '../components/Button';
 import { database } from '../services/firebase'
 import { useAuth } from '../hooks/useAuth';
 
-import '../styles/auth.scss';
+
 
 export function NewRoom() {
   const { user } = useAuth();
