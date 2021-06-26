@@ -1,0 +1,35 @@
+@media (max-width: 840px) { 
+  #page-room {
+    margin: 0 10px;
+  } 
+}
+
+@media (max-width: 635px){
+    #page-room{
+      header {
+        .content {
+          flex-direction: column;
+
+          > img {
+            margin-bottom: 20px;
+          }
+        }
+    }
+}
+}
+
+@media (max-width: 525px){
+  #page-room{
+    header {
+      .content {
+        > div {
+            flex-direction: column;
+          }
+      }
+  }
+}
+}
+
+// > div {
+//   flex-direction: column;
+// }
