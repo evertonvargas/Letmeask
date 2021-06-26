@@ -1,3 +1,4 @@
+import { useHistory } from 'react-router-dom'
 import { FormEvent, useState } from 'react';
 import { useParams } from 'react-router-dom'
 
@@ -18,12 +19,21 @@ type RoomParams = {
 }
 
 export function Room() {
-  const { user } = useAuth();
+  const history = useHistory();
+  const { user, signInWithGoogle } = useAuth();
   const params = useParams<RoomParams>();
   const [newQuestion, setNewQuestion] = useState('');
   const roomId = params.id;
 
   const { title, questions } = useRoom(roomId)
+
+  async function handleCreateRoom() {
+    if (!user) {
+      await signInWithGoogle()
+    }
+
+    history.push(`/rooms/${roomId}`);
+  }
 
   async function handleSendQuestion(event: FormEvent) {
     event.preventDefault();
@@ -90,7 +100,7 @@ export function Room() {
                 <span>{user.name}</span>
               </div>
             ) : (
-              <span>Para enviar uma pergunta, <button>faça seu login</button>.</span>
+              <span>Para enviar uma pergunta, <button onClick={handleCreateRoom}>faça seu login</button>.</span>
             ) }
             <Button type="submit" disabled={!user}>Enviar pergunta</Button>
           </div>

@@ -54,7 +54,7 @@ export function useRoom(roomId: string) {
       })
 
       setTitle(databaseRoom.title);
-      setQuestions(parsedQuestions);
+      setQuestions(parsedQuestions.sort((a, b) => (a.likeCount > b.likeCount) ? -1 : 1));
     })
 
     return () => {
